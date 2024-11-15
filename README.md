@@ -3,7 +3,7 @@
 ```
 
 # ReconSmart
-This repository contains Bash scripts to automate reconnaissance tasks for cybersecurity, using tools such as subdomain finders, service discovery, web spidering, and more. The scripts are designed to install, configure, and execute tools for performing reconnaissance on a specified domain.
+Automated domain reconnaissance through ReconSmart, streamlining subdomain enumeration, IP extraction, service identification, and domain status categorization, spidering, and automated screenshot capturing of both working and non-working domains, enhancing information gathering for penetration testers and security professionals
 
 ## Table of Contents
 - [Tools Used](#tools-used)
