@@ -1,7 +1,3 @@
-```
-./script.sh
-```
-
 # ReconSmart
 Automated domain reconnaissance through ReconSmart, streamlining subdomain enumeration, IP extraction, service identification, and domain status categorization, spidering, and automated screenshot capturing of both working and non-working domains, enhancing information gathering for penetration testers and security professionals
 
