@@ -1,3 +1,7 @@
+```
+./script.sh
+```
+
 # Recon Automation Scripts
 
 This repository contains Bash scripts to automate reconnaissance tasks for cybersecurity, using tools such as subdomain finders, service discovery, web spidering, and more. The scripts are designed to install, configure, and execute tools for performing reconnaissance on a specified domain.
@@ -28,29 +32,28 @@ The scripts use the following tools:
 ### Step-by-Step Installation
 
 ## 1. Clone this repository:
-
-git clone https://github.com/your-username/recon-automation-scripts.git
-
+```bash
+git clone https://github.com/Aryan-Raj-Neeradi/recon-automation-scripts.git
 cd recon-automation-scripts
-   
+```
 ## 2.Make the scripts executable:
-
+```
 chmod +x script1.sh script2.sh
-
+```
 Run the first script to install necessary tools:
-
+```
 ./script1.sh
-
+```
 ## This script will:
 
-Update your system and install figlet and toilet.
-Install the Go language.
-Set up Go environment variables.
+- Update your system and install figlet and toilet.
+- Install the Go language.
+- Set up Go environment variables.
 
 ## Run the second script to install and configure reconnaissance tools:
-
+```
 ./script2.sh
-
+```
 ## This script will:
 
 - Install subfinder for subdomain enumeration.
@@ -62,9 +65,9 @@ Set up Go environment variables.
 - Install aquatone for screenshotting services.
 
 ## Run the main script to perform reconnaissance:
-
-./recon-automation.sh
-
+```
+./recon-automation.sh anyDomainname
+```
 Enter the domain you want to perform reconnaissance on when prompted.
 
 ## Detailed Description of Tools
@@ -83,13 +86,13 @@ Enter the domain you want to perform reconnaissance on when prompted.
 
 ## 3. Subfinder
 
-**Purpose: Enumerates subdomains of a given domain using passive online sources.
+**Purpose**: Enumerates subdomains of a given domain using passive online sources.
 
 **Source**: Subfinder GitHub
 
 ## 4. Httpx
 
-**Purpose: Probes and interacts with web services for identifying alive domains.
+**Purpose**: Probes and interacts with web services for identifying alive domains.
 
 **Source**: Httpx GitHub
 
