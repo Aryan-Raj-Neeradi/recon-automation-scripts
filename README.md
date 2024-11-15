@@ -2,8 +2,7 @@
 ./script.sh
 ```
 
-# Recon Automation Scripts
-
+# ReconSmart
 This repository contains Bash scripts to automate reconnaissance tasks for cybersecurity, using tools such as subdomain finders, service discovery, web spidering, and more. The scripts are designed to install, configure, and execute tools for performing reconnaissance on a specified domain.
 
 ## Table of Contents
